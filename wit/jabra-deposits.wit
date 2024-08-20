@@ -1,0 +1,7 @@
+interface jabra-deposits-handler {
+  use jabratech:common/types.{response-error};
+  use types.{jabra-deposits-response};
+
+  get: func(currency: string, current-spot: f64) -> result<jabra-deposits-response, response-error>;
+  
+}

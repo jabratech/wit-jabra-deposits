@@ -1,0 +1,5 @@
+package jabratech:jabra-deposits;
+
+world jabra-deposits {
+    export jabra-deposits-handler;
+}
